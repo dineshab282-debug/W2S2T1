@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 36 - Positioning Types</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; line-height: 1.6; }
+    .box {
+      width: 180px;
+      height: 80px;
+      margin: 20px 0;
+      padding: 10px;
+      border: 1px solid #999;
+      background: #e0f2fe;
+    }
+    .relative { position: relative; left: 30px; top: 10px; }
+    .absolute { position: absolute; left: 220px; top: 20px; }
+    .fixed { position: fixed; right: 20px; bottom: 20px; background: #2563eb; color: white; }
+    .sticky { position: sticky; top: 0; background: #fef3c7; }
+  </style>
+</head>
+<body>
+  <div class="box">Static position</div>
+  <div class="box relative">Relative position</div>
+  <div class="box absolute">Absolute position</div>
+  <div class="box fixed">Fixed position</div>
+  <div class="box sticky">Sticky position</div>
+  <p style="margin-top: 80px;">Scroll down to see the sticky box stay in view.</p>
+  <p style="height: 1200px;">Extra content to make the page scroll.</p>
+</body>
+</html>
